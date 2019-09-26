@@ -1,0 +1,48 @@
+.box(){
+    border-top: 5px dashed gray; 
+        border-bottom: 5px dashed gray;
+        margin-left: 5%;
+        margin-right: 5%;
+}
+
+
+.custom-btn(@bgcolor, @width, @font-color){
+    display: block;
+    background-color: @bgcolor;
+    cursor: pointer;
+    width: @width;
+    height: 18%;
+    font-size: 2rem;
+    border-radius: 10px;
+    color:@font-color;
+    border: 5px dashed gray;
+    &:hover{
+        color: @bgcolor;
+        background-color: @font-color;
+        
+            }
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 5%;
+}   
+.rosterStan(){
+    margin: 5% 5% 6% 5%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    border-bottom: 2px dotted gray;
+    border-top: 2px dotted gray;
+    background-color: @mainColor;
+}
+
+.rosterStan2(){
+    margin: 5% 5% 6% 5%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    border-bottom: 2px dotted gray;
+    border-top: 2px solid gray;
+    background-color: rgb(255, 212, 194);
+}
