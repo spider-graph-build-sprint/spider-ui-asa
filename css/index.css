@@ -372,17 +372,19 @@ header h1 {
   margin: -12% 5% 5% 5%;
   font-size: 240%;
   line-height: 1.5;
-  font-family: 'Kalam', sans-serif;
+  font-family: 'Chilanka', cursive;
 }
 @media (max-width: 1135px) {
   .btn a {
     margin: -15% 0% 0% 0%;
     font-size: 136%;
+    font-family: 'Heebo', sans-serif;
   }
 }
 @media (max-width: 500px) {
   .btn a {
     margin: 0% 5% 5% 5%;
+    font-family: 'Heebo', sans-serif;
   }
 }
 .middleContent {
